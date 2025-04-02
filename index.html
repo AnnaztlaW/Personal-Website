@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Anna Waltz</title>
+  <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+  <header>
+    <a href="https://github.com/AnnaztlaW" target="_blank">
+      <img id = "gitIcon" src="assets/icon-github.png"></a>
+    <a href="https://www.instagram.com/anna.ztlaw/" target="_blank">
+      <img id = "instaIcon" src="assets/icon-instagram.png"></a>
+    <a href="mailto:anna@waltzmail.com">
+      <img id = "emailIcon" src="assets/icon-email.png"></a>
+      
+    <h1>Anna Waltz</h1>
+    <p>Welcome to my personal website!</p>
+    <hr>
+    
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+  <br>
+  
+  
+  <div class="containerLeft">
+      <br>
+      <p>  
+      <h2>Welcome!</h2>
+        Hello, <br>
+        My name is Anna and this is my first personal website.<br><br>
+        This website has become a tool for me to learn and play with html and learn css, it was a journey to get here and a large learning curve but fun none the less.<br>
+      </p>
+      <br>
+  </div>
+    <img id = "bustImg" src="assets/mushroomBust.jpeg" alt="Anna Waltz">
+
+    <br>
+  <footer>
+    &copy; 2025 Anna Waltz
+  </footer>
+
+  <!--keyboard shortcuts-->
+  <script>
+    // Listen for keydown events
+    document.addEventListener('keydown', function(event) {
+      // Convert key to lowercase for easier matching
+      const key = event.key.toLowerCase();
+      if (key === 'a') {
+        window.location.href = 'about.html'; // About Me page
+      }
+      if (key === 'r') {
+        window.location.href = 'resume.html'; // Resume page
+      }
+      if (key === 'p') {
+        window.location.href = 'projects.html'; // Projects page
+      }
+    });
+  </script>
+  
+
+</body>
+</html>

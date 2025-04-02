@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Anna Waltz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Anna Waltz</h1>
+    <p>This is all about me</p>
+    <hr>
+    <a href="https://github.com/AnnaztlaW" target="_blank">
+      <img id = "gitIcon" src="assets/icon-github.png"></a>
+    <a href="https://www.instagram.com/anna.ztlaw/" target="_blank">
+      <img id = "instaIcon" src="assets/icon-instagram.png"></a>
+    <a href="mailto:anna@waltzmail.com">
+      <img id = "emailIcon" src="assets/icon-email.png"></a>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+  <br>
+  <br>
+
+  <div class="container">
+    <h2>General Information</h2>
+    <p>
+      <br>Currently I am attending college at Kent State studying computer science
+      with data engineering concentration. I also attend as many of the Kent State's student computer science club's meetings as my schedule allows.
+       In addition to being a full time student I do currently work part time, for more information check out my 
+       <a href="resume.html">employment history!</a>
+      <br><br>
+      I went to Lake High school and graduated in 2023. 
+      While there I participated in the marching band which I loved because the people who ran it were amazing and so kind. 
+      I was in the percussion section through marching and concert band, but played snare specfically during the marching season.
+      <br>I was also a member of the women's soccer team and the STEM club. Additional highschool was were I began to love computers, technology, and math. 
+      <br> 
+    
+    </p>
+  </div>
+  <br><br>
+  <div class="container">
+    <h2>Hobbies</h2>
+    <p>I have two main hobbies with is reading and doing my nails. 
+      I find both relaxing and meditative, and doing my nails is a great creative outlet where I can express myself.
+      I get most of my inspiration from Instagram and <a href = "https://www.pinterest.com/annawaltz/nails/"> Pinterest</a>.
+      <br>
+      I also love reading and I primarily read online as it is generally less waste and a bit more inexpensive than physical copies. 
+      Most of my reads are fanasty and adventure. 
+    </p>
+    <!--ADD IMAGES OF NAILS MAYBE-->
+  </div>
+
+<br><br>
+  
+  <div class="smallerContainer">
+    <h2>Media Collection</h2>
+    <p>
+      Theses are some of my favorite pieces of media. Most of them are things I would recommend 
+      or are a little more obscure that speak of my interests. <br>
+    </p>
+   <img id = "mediaCover" src="assets/halestorm.jpeg" alt="Halestorm">
+   <img id = "mediaCover" src="assets/volbeat.jpeg" alt="Volbeat">
+   <img id = "mediaCover" src="assets/soloLeveling.jpg" alt="Solo Leveling">
+   <img id = "mediaCover" src="assets/violetEvergarden.jpg" alt="Violet Evergarden">
+   <img id = "mediaCover" src="assets/boyAndHeron.jpg" alt="The Boy and the Heron">
+   <img id = "mediaCover" src="assets/spaceBalls.jpg" alt="Spaceballs">
+   <img id = "mediaCover" src="assets/redShoes.jpg" alt="The Red Shoes">
+  </div>
+<br>
+  <div class="container">
+    <p> 
+    <h3>Movies:</h3> Howl's Moving Castle and other Studio Ghibli films, The Menu, Dune (2), Hello Dolly, Suzume, The Red Shoes, Fiddler on the Roof, The Blues Brothers (2000), Labyrinth, Spaceballs and anything else by Mel Brooks
+    <h3>TV Shows:</h3> Doctor Who, Stranger Things, Violet Evergarden, Mayfair Witches, and Arcane League of Legends 
+    <h3>Music: </h3> Five Finger Death Punch, Slipknot, System of a Down, Volbeat, Halestorm, Rob Zombie, Distrubed, Chappell Roan, Laufey, Limp Bizkit, The Warning
+    <h3>Reads: </h3>Solo Leveling, Nano Machine, The Siren, Ghosts of the Greenglass House, This Poison Heart, The Boneshaker... and so many others.
+  </p>
+  </div>
+
+  
+  <br><br><br><br><br><br>
+
+  <footer>
+    &copy; 2025 Anna Waltz
+  </footer>
+  <script>
+    // Listen for keydown events
+    document.addEventListener('keydown', function(event) {
+      // Convert key to lowercase for easier matching
+      const key = event.key.toLowerCase();
+      if (event.key === 'h') {
+        window.location.href = 'index.html'; // Home page
+      }
+      if (key === 'r') {
+        window.location.href = 'resume.html'; // Resume page
+      }
+      if (key === 'p') {
+        window.location.href = 'projects.html'; // Projects page
+      }
+    });
+  </script>
+
+</body>
+</html>

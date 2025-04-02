@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - Anna Waltz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Anna Waltz</h1>
+    <p>Brief Resume</p>
+    <hr>
+    
+    <a href="https://github.com/AnnaztlaW" target="_blank">
+      <img id = "gitIcon" src="assets/icon-github.png"></a>
+    <a href="https://www.instagram.com/anna.ztlaw/" target="_blank">
+      <img id = "instaIcon" src="assets/icon-instagram.png"></a>
+    <a href="mailto:anna@waltzmail.com">
+      <img id = "emailIcon" src="assets/icon-email.png"></a>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+  <br>
+
+  <div class="container">
+    <h2>Contact Information</h2>
+    <p>This is a summarized version of my resume. <br>For more information contact me directly, you can reach me via email: <a href="mailto:anna@waltzmail.com" color = rbg(175, 224, 175)>anna@waltzmail.com</a>
+    or find me on social media.</p>
+  </div>
+  <br>
+  
+
+  <div class="container">
+    <h2>Experience</h2>
+    <h3>Hartville Hardware, Uniontown — Clothing Team Member</h3>
+    <p>
+      April 6, 2023 - now<br>
+         - Navigation of POS system and inventory maintenance system <br>
+         - Vast memorization and understanding of products<br>
+         - Manage floor appearance and stock
+    </p>
+    <h3>Almost Heaven, Hartville, Ohio — Shift Supervisor & Scooper</h3>
+    <p>
+      December 2021 - June 2022<br>
+        - Completed store opening and closing procedures and balanced tills.<br>
+        - Responded to and resolved customer questions and concerns.<br>
+        - Trained new employees and delegated daily tasks and responsibilities.<br>
+        - Enforced company policies and regulations with employees.
+    </p>
+    <h3>Pump It Up, Uniontown, Ohio— Attendant & Coordinator</h3>
+    <p>
+      May 2021 - December 2021<br>
+        - Kept facilities clean, neat and organized <br>
+        - Organized, coordinated and deployed birthday parties while focusing on delivering superior customer service.
+    </p>
+  </div>
+  <br>
+  <div class="smallerContainer">
+    <h3>Skills</h3>
+    <p>
+      C++ 
+       - Javascript
+       - Java
+       - HTML
+       - Python <br>
+      GitHub
+       - Data Structures and Algorithms     
+       - Mathematics <br>
+      Communication
+       - Attention to detail
+       - Time Management
+       - Collaberation
+       - Customer Experience
+    </p>
+  </div>
+  <br><br><br>
+
+  <footer>
+    &copy; 2025 Anna Waltz
+  </footer>
+  <script>
+    // Listen for keydown events
+    document.addEventListener('keydown', function(event) {
+      // Convert key to lowercase for easier matching
+      const key = event.key.toLowerCase();
+      if (event.key === 'h') {
+        window.location.href = 'index.html'; // Home page
+      }
+      if (key === 'a') {
+        window.location.href = 'about.html'; // About Me page
+      }
+      if (key === 'p') {
+        window.location.href = 'projects.html'; // Projects page
+      }
+    });
+  </script>
+
+</body>
+</html>

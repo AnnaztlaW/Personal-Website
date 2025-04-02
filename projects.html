@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Anna Waltz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Anna Waltz</h1>
+    <p>A varity of personal projects</p>
+    <hr>
+    <a href="https://github.com/AnnaztlaW" target="_blank">
+      <img id = "gitIcon" src="assets/icon-github.png"></a>
+    <a href="https://www.instagram.com/anna.ztlaw/" target="_blank">
+      <img id = "instaIcon" src="assets/icon-instagram.png"></a>
+    <a href="mailto:anna@waltzmail.com">
+      <img id = "emailIcon" src="assets/icon-email.png"></a>
+  </header>
+  
+
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+  <br>
+
+  <div class="container">
+    <p> 
+      <h2>Game Development</h2>
+      I am a core member in the creation of a game called Swiggle.<br> It is an ongoing group project 
+      for a class with eight other members working to develop a driving game. 
+      The goal of the project is to create something fun and learn new things.
+      I have never used Javascript prior to this and this is the first full running application 
+      I have made so it has been a fun experience. <br>
+      If you are interested in checking it out head to my github!
+    </p>
+    </div>
+    <br><br>
+  <div class="container">
+    <p>
+      <h2> Website Development</h2>
+      This website has been a way for me to broaden my knowledge in development and coding.
+      Additionally it is a good application for learning HTML and css, and creating a product with a practical use.
+    </p>
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <footer>
+    &copy; 2025 Anna Waltz
+  </footer>
+  <script>
+    // Listen for keydown events
+    document.addEventListener('keydown', function(event) {
+      // Convert key to lowercase for easier matching
+      const key = event.key.toLowerCase();
+      if (event.key === 'h') {
+        window.location.href = 'index.html'; // Home page
+      }
+      if (key === 'a') {
+        window.location.href = 'about.html'; // About Me page
+      }
+      if (key === 'r') {
+        window.location.href = 'resume.html'; // Resume page
+      }
+    });
+  </script>
+
+</body>
+</html>

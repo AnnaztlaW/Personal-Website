@@ -1,0 +1,116 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 0;
+    background: #ebc0c0;
+  }
+  pre{
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #615f5f;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  /* link modification */
+  a:link {
+    color: rgb(158, 122, 122);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  /*link modification*/
+
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+  }
+  
+  nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  .container {
+    padding: 60px;
+    max-width: 1000px;
+    margin: auto;
+    background: rgb(238, 221, 221);
+  }
+  .containerLeft {
+    padding: 30px;
+    position: absolute;
+    max-width: 50%;
+    margin-left : 4%;
+    margin-top : 4%;
+    background: rgb(238, 221, 221);
+  }
+  .smallerContainer{
+    padding: 60px;
+    max-width: 780px;
+    margin: auto;
+    background: rgb(238, 221, 221);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em ;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 250%;
+    color: #ebc0c0;
+  }
+  h2 {
+    color: #161616;
+  }
+  #bustImg { 
+    float : right;
+    margin-right : 3%;
+    max-width: 25%;
+    border-radius: 10px;
+  }
+  #gitIcon {
+    position: absolute;
+    max-width: 3%;
+    top: 3%;
+    right: 2%;
+  }
+  #instaIcon {
+    position: absolute;
+    max-width: 3%;
+    top: 3%;
+    right: 6%;
+  }
+  #emailIcon{
+    position: absolute;
+    max-width: 3%;
+    top: 3%;
+    right: 10%;
+
+  }
+  #mediaCover{
+    max-width: 13.5%;
+    border-radius: 5px;
+    object-position: 50% 50%;
+  }
+  #kentCSLogo{
+    position: absolute;
+
+  }
+  
